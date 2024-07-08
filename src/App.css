@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "window98";
+  src: url("/public/W95FA.otf");
+}
+body {
+  background-image: url("/public/image/windowbackground.png");
+  background-size: cover;
+  font-family: window98;
+}
+
+.App {
+  width: 600px;
+  heigth: 500px;
+}
+
+.VideoEditor {
+  background-color: #d7e3fd;
+  width: 600px;
+  heigth: 500px;
+  border: gray;
+  border-style: double;
+}
+.video-player-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: gray;
+  border-bottom-style: double;
+}
+.video-player-header p {
+  font-family: "window98", sans-serif;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.video-player-header button {
+  font-family: "window98", sans-serif;
+  font-size: 15px;
+  background: aliceblue;
+  text-align: center;
+  padding: 5px;
+  border: gray;
+  border-left-style: double;
+}
+.video-player {
+  border: gray;
+  border-bottom-style: double;
+}
+
+.export_button {
+  font-size: 14px;
+  padding: 5px;
+  background-color: #8b9cf3;
+  margin: 4px;
+  font-family: "window98", sans-serif;
+  border: white;
+  border-style: revert-layer;
+  border-width: revert;
+}
+.edit-options-header {
+  margin: 7px;
+  margin-bottom: 1px;
+  padding: 7px;
+  padding-bottom: 1px;
+}
+
+.edit-options-wrap {
+  display: flex;
+  justify-content: space-around;
+  width: 97%;
+  height: 100px;
+  margin: 10px;
+  padding: 7px;
+  border: white;
+  border-color: white;
+  border-style: outset;
+}

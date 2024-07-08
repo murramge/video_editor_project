@@ -1,0 +1,50 @@
+#root {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  pointer-events: none;
+}
+
+.file {
+  display: none;
+}
+
+.file::file-selector-button {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #111;
+  border-radius: 12px;
+  padding: 4px 32px;
+  cursor: pointer;
+}
+
+.preview {
+  width: 450px;
+  height: 235px;
+  background-image: url("/public/image/mainbackground.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.preview_msg {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 10px;
+  font-family: serif;
+}
+
+.preview_desc {
+  margin: 0;
+  font-size: 14px;
+}
